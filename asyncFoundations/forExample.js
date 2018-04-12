@@ -5,3 +5,12 @@ function double(arr) {
     }
 }
 double(arr);
+//prints out individual lines with each doubled ammount
+<!--
+2
+4
+6
+8
+10
+12
+-->
