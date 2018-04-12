@@ -1,3 +1,4 @@
+//Callback example
 function callback () {
     console.log("coming from callback");
 }
