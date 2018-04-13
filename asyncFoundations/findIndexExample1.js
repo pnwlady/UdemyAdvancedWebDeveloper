@@ -16,3 +16,9 @@ var arr = [5,11,13,8,6,7];
 findIndex(arr, function(num, index, array) {
     return num % 2 === 0;
 });
+//will return the truthy values indecies (would it return more then 1?)
+
+var langs = ["Java", "C++", "Python", "Ruby"];
+findIndex(langs, function(lang, index, array) {
+    return lang === "JavaScript";
+});
