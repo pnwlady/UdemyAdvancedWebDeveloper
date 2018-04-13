@@ -22,3 +22,9 @@ var langs = ["Java", "C++", "Python", "Ruby"];
 findIndex(langs, function(lang, index, array) {
     return lang === "JavaScript";
 });
+
+//bad example - not return value
+var langs = ["Java", "C++", "Python", "Ruby"];
+findIndex(langs, function(lang, index, array) {
+    lang === "JavaScript";
+});
