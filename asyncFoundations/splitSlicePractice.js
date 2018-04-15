@@ -44,3 +44,16 @@ console.log(animals.slice(1, 5));
 // expected output: Array ["bison", "camel", "duck", "elephant"]
 
 //Udemy coursework example of split and slice
+function upperCaseFirst(word) {
+  return word[0].toUpperCase() + word.slice(1);
+}
+
+function upperCaseWords(sentence) {
+  let words = sentence.split(" ");
+  for (let i = 0; i < words.length; i++) {
+    words[i] = upperCaseFirst(words[i]);
+  }
+  return words.join(" ");
+}
+
+upperCaseWords("lowercase words");
