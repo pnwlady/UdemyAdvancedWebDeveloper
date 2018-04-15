@@ -15,4 +15,6 @@ Coursework for Rithm/Udemy Advanced Web Developer course
           * the function invoked
           * the parameters passed to the function
           * current line number
+      * Heap is an area in memory where data is stored
+      
           
