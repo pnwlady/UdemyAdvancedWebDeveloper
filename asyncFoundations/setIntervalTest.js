@@ -1,9 +1,11 @@
-var num = 3;
-var countInterval = setInterval(function() {
-    num--;
-    console.log("Timer:", num);
-    if (num === 1) {
-        clearInterval(countInterval);
-        console.log("Ring Ring Ring!!!")
+function countDown(seconds) {
+  var intervalId = setInterval(function() {
+    seconds--;
+    if (seconds > 0) {
+      console.log("Timer:", seconds);
+    } else {
+      console.log("Ring Ring Ring!!!");
+      clearInterval(intervalId);
     }
-}, 1000);
+  }, 1000);
+}
