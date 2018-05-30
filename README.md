@@ -29,4 +29,4 @@ Coursework for Rithm/Udemy Advanced Web Developer course
 
 * Promise: an object that represents a task that will be completed in the future
     * Then: handles the resolution of the function
-    * Catch: handles the rejection of the funciton
+    * Catch: handles the rejection of the function
