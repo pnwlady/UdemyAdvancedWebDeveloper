@@ -26,3 +26,7 @@ Coursework for Rithm/Udemy Advanced Web Developer course
 
 
 >**JavaScript is Single Threaded:** Code execution is linear. While running code cannot be interrupted by something else going on in the program
+
+* Promise: an object that represents a task that will be completed in the future
+    * Then: handles the resolution of the function
+    * Catch: handles the rejection of the funciton
